@@ -36,4 +36,4 @@ void codegen(){
 	emit("sw $ra, 0($sp)");
 	emit("addiu $fp, $sp, 4");
  /* from now on call code gen on the main stmt in main */
-}	
+}
